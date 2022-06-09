@@ -1,1 +1,39 @@
-welcome
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        h1 {
+            line-height: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <script>
+            var a, b, c;
+            a = prompt("請輸入數字A：");
+            b = prompt("請輸入數字B：");
+            c = parseInt(a) + parseInt(b);
+            d = parseInt(a) - parseInt(b);
+            e = parseInt(a) * parseInt(b);
+            f = parseInt(a) / parseInt(b);
+            document.write("數字A(" + a + ")， 資料型態為：" + typeof(a));
+            document.write("<br>");
+            document.write("數字A(" + b + ")， 資料型態為：" + typeof(b));
+            document.write("<br>");
+        </script>
+    </h1>
+    <h2>
+        <script>
+            document.write(a + ' + ' + b + ' = ' + c);
+            document.write("<br>");
+            document.write(a + ' - ' + b + ' = ' + d);
+            document.write("<br>");
+            document.write(a + ' * ' + b + ' = ' + e);
+            document.write("<br>");
+            document.write(a + ' / ' + b + ' = ' + f);
+        </script>
+    </h2>
+</body>
